@@ -26,8 +26,8 @@ body{
 }
 
 #firstForm input{
-	width: 100%;
-	border-radius: 10px;
+	width: 150%;
+	border-radius: 5px;
 	background: #3b403c;
 	color: white;
 	padding: 1%;
@@ -39,6 +39,7 @@ body{
 	background: green;
 	align-self: center;
 	margin-left: 30px;
+	width: 100%;
 }
 hr{
 	align-self: center;
