@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="Form.css">
+	<link rel="php" type="text/php" href="phpFirst.php">
+</head>
+<body>
+	<section class="container">
+
+		<form method="POST">
+		<div id="insideText">User Information</div>
+			<div id="firstForm">
+				<ul>
+				<li><label >First Name:</label></li>
+				<input type="text" name="firstName" value="Enter your first Name" onclick="this.select()" >
+				<li><label>Last Name:</label></li>
+				<input type="text" name="lastName" value="Enter your last name" onclick="this.select()">
+				<li><label>Email:</label></li>
+				<input type="Email" name="eMail" value="Enter you email address" onclick="this.select()">
+				<li><label>Password:</label></li>
+				<input type="Password" name="passWord" minlength="8" required >
+			</ul>
+				<hr>
+				<input type="submit" name="submit" value="Submit">
+			</div>
+		</form>
+	</section>
+	<section class="belowText">
+	The information that is provided by user is assumed to be true. If you have any doubt about the data you are providing, reconsider checking it  again!!	<br>
+	Copyright &copy; 2019 WebDevs Pvt. Limited
+	</section>
+</body>
+</html>
