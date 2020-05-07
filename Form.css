@@ -8,7 +8,7 @@ body{
 .container{
 	background: white;
 	align-content: center;
-	width: 25%;
+	width: 30%;
 	text-align: center;
 	margin-top: 10%;
 	margin-left: 35%;
@@ -39,7 +39,6 @@ body{
 	background: green;
 	align-self: center;
 	margin-left: 30px;
-	width: 100%;
 }
 hr{
 	align-self: center;
@@ -56,4 +55,9 @@ hr{
 #insideText{
 	text-decoration: underline;
 	font-weight: bold;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
 }
